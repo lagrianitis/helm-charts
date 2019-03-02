@@ -22,11 +22,10 @@ paths:
 
 ingress:
   enabled: true
-  annotations: {}
+  annotations:
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
-  paths:
-    - "/"
+  paths: ["/"]
   hosts:
     - radarr.localhost
   tls:
