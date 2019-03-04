@@ -15,7 +15,7 @@ service:
   port: 80
 
 paths:
-  downloads: /f/volumes/nzbget/downloads
+  downloads: /d/downloads/nzbget
   config: /f/volumes/nzbget/config
 
 ingress:

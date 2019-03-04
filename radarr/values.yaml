@@ -15,7 +15,7 @@ service:
   port: 80
 
 paths:
-  downloads: /f/volumes/radarr/downloads
+  downloads: /d/downloads/radaar
   config: /f/volumes/radarr/config
   movies: /f/volumes/radarr/movies
   watchdirs: /f/volumes/radarr/watchdirs
