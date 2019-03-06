@@ -1,5 +1,4 @@
 apiVersion: v1
-appVersion: "0.2.0.1318-ls5"
-description: A Helm chart for Radarr
-name: radarr
+description: A Helm chart for Deluge
+name: deluge
 version: 0.1.0
